@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    color: purple;
+
+    background-image: linear-gradient(to bottom right, #338, #300);
+    font-family: 'Amatic SC', cursive;}
+
+#results {
+    display:none;
+  }
+
+.card-body text-center mt-5{
+    box-shadow: 0px 7px 23px -3px #000000;
+    background-size: 400% 400%;
+    border: 1px solid rgba(0,0,0,.125);
+    background-image: linear-gradient(to bottom right, #338, #300);
+
+}
+.input-group-addon{
+    background-color: rgb(188, 149, 224);
+}
+
+.container {
+    background-color: rgba(189, 124, 226, 0.3);
+    margin: 10vw;
+    padding: 10vw;
+    border-radius: 15px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #8554c5;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  button:hover {
+    background: #b386b4;
+    border-bottom-color: #111;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+
+
